@@ -1,0 +1,204 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #ffffff;
+}
+.header__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 0;
+}
+.header__logo a{
+    display: flex;
+    width: 50px;
+}
+.sidenav{
+    display: flex;
+    align-items: center;
+}
+.sidenav .footer__soc{
+    display: none;
+}
+.sidenav ul{
+    display: flex;
+    align-items: center;
+}
+.sidenav ul li{
+    margin-right: 46px;
+}
+.sidenav ul li a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #374F8F;
+    transition: 0.3s;
+}
+.sidenav ul li a:hover{
+    color: #F551A2;
+}
+.open-menu {
+    display: none;
+    width: 40px;
+    height: 25px;
+    position: relative;
+}
+.open-menu span {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #F551A2;;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.close-menu {
+    display: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+}
+.close-menu span {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.close-menu span:first-child, .close-menu span:last-child {
+    display: none;
+}
+.close-menu span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.close-menu span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.anim-menu {
+    -webkit-transform: translateX(0%) !important;
+    -ms-transform: translateX(0%) !important;
+    transform: translateX(0%) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.body_fix .for-mobile-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    left: 0;
+}
+
+.body_fix {
+    width: 100%;
+    overflow: hidden;
+}
+.body_fix .open-menu.close-menu {
+    top: 20px;
+    left: auto;
+    z-index: 999999;
+    right: 20px;
+}
+@media (max-width: 1199px){
+    .sidenav ul li {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .menu-width {
+        width: 0% !important;
+        -webkit-transition: all 0.5s ease 0s !important;
+        -o-transition: all 0.5s ease 0s !important;
+        transition: all 0.5s ease 0s !important;
+    }
+    .transition-menu {
+        width: 375px !important;
+        -webkit-transition: all 0.5s ease 0s !important;
+        -o-transition: all 0.5s ease 0s !important;
+        transition: all 0.5s ease 0s !important;
+    }
+    .view-addresses_info .online-appointment_sel {
+        margin-bottom: 10px;
+    }
+    .open-menu span:nth-child(2), .open-menu span:nth-child(3) {
+        top: 12px;
+    }
+    .open-menu span:last-child {
+        top: 24px;
+    }
+    .open-menu {
+        display: block;
+        z-index: 999;
+        margin-left: auto;
+    }
+    .menu-cnt {
+        margin: 0;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        padding: 60px 0 30px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background: #E5F5F5;
+    }
+    .sidenav > ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__logo a {
+        width: 50px;
+    }
+    .header__main {
+        padding: 5px 0;
+    }
+    .sidenav .footer__soc {
+        display: block;
+        margin-top: 50px;
+    }
+    .sidenav .footer__soc ul {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .sidenav {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+    .sidenav ul li {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .sidenav .btn__liner{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 570px){
+    .transition-menu {
+        width: 100% !important;
+    }
+    .sidenav ul li {
+        margin-top: 16px;
+    }
+}

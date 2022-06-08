@@ -1,0 +1,1032 @@
+.btn__liner{
+    border: 2px solid #F551A2;
+    border-radius: 10px;
+    padding: 11px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F551A2;
+    background: unset;
+}
+.btn__liner:hover{
+    background: #F551A2;
+    color: #ffffff;
+}
+header .btn__liner {
+    font-size: 20px;
+    line-height: 20px;
+}
+.btn{
+    padding: 13px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #F551A2;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+    width: max-content;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 3em;
+    height: 100%;
+    top: 0;
+    left: -35%;
+    -webkit-transform: skewX(-45deg) translateX(0);
+    -ms-transform: skewX(-45deg) translateX(0);
+    transform: skewX(-45deg) translateX(0);
+    background: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+}
+.btn:hover:before{
+    left: 130%;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+h1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 68px;
+    color: #374F8F;
+}
+h2{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #374F8F;
+}
+h3{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #374F8F;
+}
+p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #374F8F;
+}
+.royal__main{
+    background: #E5F5F5;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 120px 72px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.royal__main:before{
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 128px;
+    background-image: url("../img/skay2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 94px;
+    height: 54px;
+}
+.royal__main:after{
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    right: 96px;
+    background-image: url("../img/skay3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 194px;
+    height: 110px;
+}
+.royal__info{
+    max-width: 570px;
+    width: 100%;
+    position: relative;
+    z-index: 19;
+    margin-top: -10px;
+}
+.royal__info p{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #909EC4;
+    max-width: 433px;
+    font-style: italic;
+
+}
+.royal__info p span{
+    font-weight: 300;
+
+}
+.royal__btn{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.royal__btn span{
+    display: block;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #F551A2;
+    max-width: 248px;
+}
+.royal__cnt{
+    max-width: 494px;
+    width: 100%;
+    z-index: 9;
+}
+.royal__cnt:after{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 122px;
+    background-image: url("../img/skay1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 113px;
+    height: 64px;
+}
+.royal__photo{
+    width: 100%;
+}
+.royal__photo a{
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+}
+.royal__photo a img{
+    width: 100%;
+    border-radius: 12px;
+
+}
+.royal__leng{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.royal__leng a{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #374F8F;
+    font-style: italic;
+}
+.bilingual__cnt{
+    margin: 38px 0 50px;
+    position: relative;
+}
+.bilingual__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bilingual__photo{
+    display: flex;
+}
+.bilingual__info{
+    max-width: 420px;
+    width: 100%;
+}
+.bilingual__info strong{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #374F8F;
+}
+.bilingual__info p{
+    margin-top: 24px;
+}
+.swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    background: #374F8F;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background: #F551A2;
+}
+.bilingual__cnt .swiper-pagination{
+    bottom: 77px;
+}
+.trial-child{
+    background: #E5F5F5;
+    border-radius: 12px;
+    display: flex;
+    padding-left: 68px;
+    position: relative;
+}
+.trial-child:before{
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 95px;
+    height: 54px;
+    background-image: url("../img/skay2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trial-child:after{
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 35px;
+    width: 95px;
+    height: 54px;
+    background-image: url("../img/skay2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trial-child__name{
+    max-width: 440px;
+    width: 100%;
+    padding: 52px 0;
+    position: relative;
+}
+.trial-child__name .btn {
+    margin-top: 20px;
+}
+.trial-child__name:after{
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: -55px;
+    width: 47px;
+    height: 26px;
+    background-image: url("../img/skay2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.trial-child__name a{
+    margin-top: 10px;
+}
+.trial-child__photo{
+    position: absolute;
+    right: 51px;
+    top: -74px;
+    display: flex;
+}
+
+.our-approach{
+    margin: 250px auto 90px;
+    position: relative;
+    max-width: 1442px;
+    width: 100%;
+}
+.our-approach:before{
+    content: "";
+    position: absolute;
+    top: -70px;
+    right: 0;
+    max-width: 1344px;
+    width: 100%;
+    height: 893px;
+    background-image: url("../img/eqw2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our-approach__flex{
+    position: relative;
+    z-index: 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.our-approach__flex h2{
+    max-width: 320px;
+    width: 100%;
+    line-height: 59px;
+}
+.our-approach__block{
+    max-width: 700px;
+    width: 100%;
+}
+.our-approach__block ul li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.our-approach__block ul li + li{
+    margin-top: 44px;
+}
+.our-approach__block ul li img{
+    margin-right: 58px;
+}
+.our-approach__block ul li p{
+    max-width: 562px;
+    width: 100%;
+}
+.future-nova{
+    padding-top: 60px;
+}
+.future-nova__flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.future-nova__photo {
+    display: flex;
+    margin-top: -109px;
+}
+.future-nova__title{
+    max-width: 545px;
+    width: 100%;
+}
+.future-nova__title h2{
+    font-size: 40px;
+    line-height: 51px;
+}
+.future-nova__title p{
+    margin-top: 15px;
+}
+.future-nova__fon{
+    width: 100%;
+    margin-top: -60px;
+    margin-bottom: 100px;
+    background: #E5F5F5;
+    border-radius: 12px;
+    height: 655px;
+    padding: 32px 0 0 87px;
+}
+.future-nova__img{
+    background-image: url("../img/w1529.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1112px;
+    width: 100%;
+    height: 574px;
+}
+.future-nova__name{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.future-nova__name ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-width: 590px;
+    width: 100%;
+}
+.future-nova__name ul li{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #374F8F;
+    position: absolute;
+}
+.future-nova__name ul li:nth-child(1){
+    max-width: 151px;
+    top: 110px;
+    left: 7px;
+    text-align: center;
+}
+.future-nova__name ul li:nth-child(2){
+    max-width: 105px;
+    top: 126px;
+    right: 96px;
+}
+.future-nova__name ul li:nth-child(3){
+    max-width: 102px;
+    top: 315px;
+    left: -6px;
+}
+.future-nova__name ul li:nth-child(4){
+    max-width: 153px;
+    top: 299px;
+    right: 12px;
+}
+.future-nova__name ul li:nth-child(5){
+    bottom: 59px;
+    left: 165px;
+    text-align: center;
+}
+.education__through{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.education__through h2{
+    max-width: 305px;
+    width: 100%;
+}
+.education__photo{
+    display: flex;
+    margin-right: 120px;
+}
+.education__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.education__text{
+    max-width: 471px;
+    width: 100%;
+}
+.education__text p{
+    margin-top: 45px;
+}
+.education__text:nth-child(1){
+    margin-top: -110px;
+}
+.education__fon{
+    background-image: url("../img/a01595.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0 40px;
+
+}
+.business-kids{
+    display: flex;
+    align-items: center;
+    padding-top: 220px;
+    position: relative;
+    margin-bottom: 120px;
+}
+.business-kids__box{
+    max-width: 592px;
+    width: 100%;
+}
+.business-kids__photo{
+    display: flex;
+}
+.business-kids__box strong{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #374F8F;
+    display: block;
+}
+.dancing-classes{
+    position: absolute;
+    background-image: url("../img/Grof46.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 100%;
+    height: 248px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 98px;
+    bottom: 267px;
+}
+.dancing-classes strong{
+    max-width: 137px;
+    margin-top: 33px;
+    margin-left: 85px;
+}
+.dancing-kids{
+    background-image: url("../img/Gro01646.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 267px;
+    width: 100%;
+    height: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    right: 124px;
+}
+.dancing-kids strong{
+    max-width: 119px;
+    margin-top: 26px;
+}
+.reading-writing{
+    background-image: url("../img/01646.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 485px;
+    width: 100%;
+    height: 436px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 172px;
+    bottom: -88px;
+}
+.reading-writing strong{
+    max-width: 248px;
+    margin-right: 57px;
+}
+.business-kids__photo img{
+    border-radius: 12px;
+}
+.business-kids__box:first-child .business-kids__photo:last-child{
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+.business-kids__box:first-child {
+    margin-right: 32px;
+}
+.business-kids__box:last-child .business-kids__photo:last-child{
+    margin-top: 32px;
+}
+.business-kids__box:last-child{
+    margin-top: -259px;
+}
+@media (max-width: 1199px){
+    h1 {
+        font-size: 50px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .our-approach__flex h2{
+        line-height: 46px;
+    }
+    .royal__main {
+        padding: 50px 30px;
+    }
+    .bilingual__photo {
+        max-width: 480px;
+    }
+    .trial-child__photo {
+        right: 13px;
+        top: -82px;
+    }
+    .our-approach {
+        margin: 200px auto 90px;
+    }
+    .future-nova__title h2 {
+        font-size: 36px;
+    }
+    .future-nova__title {
+        max-width: 470px;
+    }
+    .future-nova__img {
+    }
+    .future-nova__fon {
+        padding: 32px 0 0 0;
+    }
+    .future-nova__img {
+        max-width: 964px;
+        object-position: center;
+    }
+    .future-nova__name ul li:nth-child(1) {
+        left: 70px;
+    }
+    .future-nova__name ul li:nth-child(2) {
+        right: 27px;
+    }
+    .future-nova__name ul li:nth-child(3) {
+        left: 64px;
+    }
+    .future-nova__name ul li:nth-child(4) {
+        right: -61px;
+    }
+    .future-nova__name ul li:nth-child(5) {
+        left: 228px;
+    }
+    .our-approach__block ul li img {
+        margin-right: 30px;
+    }
+    .education__photo {
+        margin-right: 0;
+    }
+    .education__text {
+        max-width: 410px;
+    }
+    .dancing-classes {
+        left: 32px;
+        bottom: 267px;
+    }
+    .reading-writing {
+        right: 51px;
+        bottom: -27px;
+    }
+}
+@media (max-width: 991px){
+    .royal__main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .royal__info h1{
+        text-align: center;
+    }
+    .royal__info p {
+        margin: 20px auto 0;
+    }
+    .royal__btn {
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .bilingual__info strong {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .bilingual__info {
+        max-width: 330px;
+    }
+   .trial-child__name  h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .trial-child__name {
+        max-width: 314px;
+        padding: 35px 0;
+    }
+    .trial-child {
+        padding-left: 25px;
+    }
+    .trial-child__photo {
+        right: 0;
+        top: -50px;
+        max-width: 482px;
+    }
+    .our-approach__flex {
+        flex-direction: column;
+    }
+    .our-approach__block {
+        margin-top: 40px;
+    }
+    .our-approach {
+        margin: 150px auto 90px;
+    }
+    .future-nova__title {
+        max-width: 358px;
+    }
+    .future-nova__title h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .future-nova__photo {
+        margin-top: 0;
+    }
+    .future-nova__fon {
+        margin-top: -18px;
+    }
+    .future-nova__img {
+        max-width: 744px;
+        margin: 0 auto;
+        background-position: 33%;
+    }
+    .education__fon {
+        padding: 0;
+    }
+    .education__text {
+        max-width: 349px;
+    }
+    .business-kids__box:first-child {
+        margin-right: 15px;
+    }
+    .business-kids__box:last-child .business-kids__photo:last-child {
+        margin-top: 20px;
+    }
+    .business-kids__box:first-child .business-kids__photo:last-child {
+        margin-top: 15px;
+    }
+    .dancing-classes {
+        background-size: contain;
+        max-width: 284px;
+        height: 239px;
+        left: 3px;
+        bottom: 273px;
+    }
+    .reading-writing {
+        right: 25px;
+        bottom: -55px;
+        max-width: 458px;
+        height: 421px;
+    }
+    .trial-child__photo {
+        right: 0;
+        top: -56px;
+        max-width: 461px;
+    }
+    .royal__info p {
+        margin: 20px auto 0;
+        text-align: center;
+    }
+}
+@media (max-width: 760px){
+    .royal__info h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .royal__info p {
+        text-align: center;
+        font-size: 22px;
+        line-height: 26px;
+        max-width: 356px;
+    }
+    .royal__btn span {
+        margin-right: 20px;
+        font-size: 20px;
+        line-height: 27px;
+        max-width: 203px;
+    }
+    .bilingual__flex {
+        padding: 60px 0;
+        background-size: cover;
+        flex-direction: column;
+    }
+    .trial-child__name {
+        padding: 30px 0 55px;
+    }
+    .trial-child__photo {
+        top: 29px;
+        max-width: 359px;
+    }
+    .our-approach__block ul li {
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-approach__block ul li img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .future-nova__flex {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+    .future-nova__photo {
+        margin-top: 0px;
+        max-width: 381px;
+    }
+    .future-nova__img {
+        max-width: 568px;
+        background-position: 44%;
+    }
+    .future-nova__name ul li {
+        font-size: 15px;
+    }
+    .future-nova__name ul li:nth-child(1) {
+        left: 24px;
+    }
+    .future-nova__name ul li:nth-child(4) {
+        right: -9px;
+    }
+    .future-nova__name ul li:nth-child(3) {
+        left: 25px;
+    }
+    .future-nova__name ul li:nth-child(5) {
+        left: 200px;
+    }
+    .education__through {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .our-approach__flex h2{
+        line-height: 44px;
+    }
+    .education__flex {
+        margin-bottom: 25px;
+        flex-direction: column;
+    }
+    .education__text:nth-child(1) {
+        margin-top: 0;
+    }
+    .education__text {
+        max-width: 449px;
+    }
+    .business-kids {
+        padding-top: 100px;
+        flex-direction: column;
+    }
+    .business-kids__box:first-child {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .business-kids__box:last-child {
+        margin-top: -356px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .business-kids__box:last-child .business-kids__photo:first-child{
+        max-width: 240px;
+    }
+    .business-kids__box:first-child .business-kids__photo:last-child {
+        max-width: 240px;
+    }
+    .dancing-kids {
+        background-size: contain;
+        max-width: 256px;
+        height: 271px;
+        top: 273px;
+        right: 0;
+    }
+    .dancing-classes {
+        left: 80px;
+    }
+    .reading-writing {
+        right: 24px;
+        bottom: -134px;
+        max-width: 453px;
+        height: 414px;
+        background-size: contain;
+    }
+    .trial-child {
+        margin-bottom: 84px;
+    }
+}
+@media (max-width: 570px){
+    .royal__main {
+        padding: 40px 15px;
+    }
+    .royal__info h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .royal__info p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .royal__btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .royal__btn span {
+        margin-right: 0;
+    }
+    .royal__btn .btn{
+        max-width: 310px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .royal__leng a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    p {
+        font-size: 17px;
+    }
+    .bilingual__flex {
+        padding: 60px 0 80px;
+    }
+    .trial-child__name {
+        padding: 30px 0 70px;
+        position: relative;
+        z-index: 88;
+    }
+    .trial-child__photo {
+        top: 106px;
+        max-width: 250px;
+    }
+    .btn {
+        padding: 12px 20px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .our-approach {
+        margin: 120px auto 50px;
+    }
+    .future-nova__img {
+        background-position: center;
+        background-image: url("../img/as01529.png");
+        background-size: cover;
+        height: 345px;
+        max-width: 375px;
+
+    }
+    .future-nova__fon {
+        height: 410px;
+        margin-bottom: 70px;
+    }
+    .future-nova__name ul li {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .future-nova__name ul li:nth-child(1) {
+        left: 13px;
+        top: 64px;
+        max-width: 107px;
+    }
+    .future-nova__name ul li:nth-child(2) {
+        right: 25px;
+        top: 74px;
+        max-width: 69px;
+    }
+    .future-nova__name ul li:nth-child(3) {
+        left: 25px;
+        top: 187px;
+        max-width: 61px;
+    }
+    .future-nova__name ul li:nth-child(4) {
+        right: -4px;
+        max-width: 111px;
+        top: 182px;
+    }
+    .future-nova__name ul li:nth-child(5) {
+        left: 117px;
+        bottom: 40px;
+    }
+    .education__text p {
+        margin-top: 20px;
+    }
+    .dancing-kids {
+        max-width: 202px;
+        height: 219px;
+        top: 215px;
+        right: 0;
+    }
+    .dancing-kids strong {
+        max-width: 79px;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .business-kids__box:first-child .business-kids__photo:last-child {
+        max-width: 166px;
+    }
+    .business-kids__box:last-child .business-kids__photo:first-child {
+        max-width: 166px;
+    }
+    .business-kids__box:last-child {
+        margin-top: -248px;
+    }
+    .dancing-classes {
+        max-width: 235px;
+        height: 194px;
+        left: 3px;
+        bottom: 150px;
+    }
+    .dancing-classes strong {
+        max-width: 123px;
+        margin-top: 32px;
+        margin-left: 81px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .reading-writing {
+        right: 12px;
+        bottom: -156px;
+        max-width: 320px;
+        height: 298px;
+    }
+    .reading-writing strong {
+        max-width: 151px;
+        margin-right: 47px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .business-kids {
+        padding-top: 100px;
+        flex-direction: column;
+        margin-bottom: 160px;
+    }
+    .trial-child__name:after {
+        top: 82px;
+        right: 0px;
+    }
+    .royal__main:after {
+        right: 109px;
+        background-size: contain;
+        width: 117px;
+        height: 71px;
+    }
+}

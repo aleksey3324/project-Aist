@@ -1,0 +1,523 @@
+.all__marg {
+    margin-top: 110px;
+}
+.reviews__main{
+    background-image: url("../img/awq607.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+    margin-bottom: 110px;
+}
+.reviews__info {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.reviews__main h2{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.reviews__info p{
+    margin: 50px auto 25px;
+    max-width: 504px;
+    width: 100%;
+}
+.reviews__info span{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #374F8F;
+}
+
+.reviews__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.pages__gallery{
+    margin-bottom: 110px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__box{
+    display: flex;
+    margin-top: 32px;
+}
+.gallery__box img{
+    width: 100%;
+    border-radius: 12px;
+}
+.gallery__box:nth-child(1) {
+    width: 48%;
+}
+.gallery__box:nth-child(2) {
+    width: 23%;
+    margin-left: 32px;
+}
+.gallery__box:nth-child(3) {
+    width: 23%;
+    margin-left: 32px;
+}
+.gallery__box:nth-child(4) {
+    width: 100%;
+}
+.gallery__box:nth-child(5) {
+    width: 48%;
+}
+.gallery__box:nth-child(6) {
+    width: 23%;
+    margin-left: 32px;
+}
+.gallery__box:nth-child(7) {
+    width: 23%;
+    margin-left: 32px;
+}
+.gallery__box:nth-child(8) {
+    width: 100%;
+}
+.gallery__box:nth-child(9) {
+    width: 48%;
+}
+.gallery__box:nth-child(10) {
+    width: 23%;
+    margin-left: 32px;
+}
+.gallery__box:nth-child(11) {
+    width: 23%;
+    margin-left: 32px;
+}
+.gallery__box:nth-child(12) {
+    width: 100%;
+}
+
+
+.teachers__main{
+    width: 100%;
+    position: relative;
+    background: #E5F5F5;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+.teachers__main:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/221574.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 881px;
+    width: 100%;
+    height: 100%;
+}
+.teachers__info{
+    padding: 60px 74px 61px 72px;
+}
+.teachers__flex{
+    margin-top: 40px;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.teachers__main .swiper-pagination{
+    bottom: -45px;
+}
+.teachers__block{
+    max-width: 520px;
+    width: 100%;
+}
+.teachers__block .lessons-two__info {
+    max-width: 521px;
+    margin-left: 0;
+}
+.teachers__block  .lessons-two__info strong {
+    line-height: 23px;
+    margin-top: 40px;
+}
+.teachers__block .lessons-two__info ul li {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.teachers__cnt{
+    max-width: 460px;
+    width: 100%;
+    position: relative;
+}
+.teachers__fon{
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+}
+.teachers__name {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 48px;
+    left: 128px;
+    text-align: center;
+}
+.teachers__name strong{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 22px;
+    color: #374F8F;
+    display: block;
+}
+.teachers__name span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #374F8F;
+    display: block;
+    margin-top: 9px;
+}
+.children-hands{
+    max-width: 100%;
+    background-image: url("../img/cirk1749.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 85px;
+}
+.children-hands{
+    display: flex;
+    align-items: center;
+}
+.children-cnt{
+    max-width: 500px;
+    width: 100%;
+}
+.children-photo{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.children-number{
+    max-width: 385px;
+    width: 100%;
+    height: 224px;
+    background-image: url("../img/amp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: -192px auto 0;
+    z-index: 99;
+    position: relative;
+    padding-top: 55px;
+}
+.children-number strong{
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 95px;
+    letter-spacing: 0.418651px;
+    color: #374F8F;
+}
+.children-number span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.326732px;
+    margin: 12px auto 0;
+    max-width: 245px;
+    color: #374F8F;
+}
+.children-text{
+    max-width: 520px;
+    width: 100%;
+    margin-left: 70px;
+}
+.children-text p{
+    margin-top: 15px;
+}
+
+.contact__main{
+    background: #E5F5F5;
+    border-radius: 12px;
+    padding: 80px 72px 70px;
+    position: relative;
+}
+.contact__main:before{
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 100%;
+    height: 608px;
+    background-image: url("../img/asas9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -107px;
+}
+.contact__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 88;
+}
+.contact__cnt .footer__soc ul li a {
+    font-weight: 500;
+}
+.contact__cnt .footer__soc ul li>span{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #909EC4;
+    margin-left: 42px;
+    display: block;
+}
+.contact__photo{
+    max-width: 427px;
+    margin-left: 178px;
+    margin-top: -132px;
+    transform: rotate(-8deg);
+}
+.contact__flex .footer__soc {
+    margin-top: 77px;
+}
+.contact__map{
+    width: 100%;
+    height: 350px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 88;
+}
+.contact__info{
+    max-width: 416px;
+    width: 100%;
+}
+.contact__info h2{
+    margin-bottom: 30px;
+}
+.contact__inp{
+    max-width: 416px;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact__inp label{
+    display: flex;
+    width: 100%;
+}
+.contact__inp label input{
+    width: 100%;
+    height: 50px;
+    border: unset;
+    border-bottom: 1px solid #374F8F;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+    color: #909EC4;
+    background: unset;
+}
+.contact__inp label input::placeholder{
+    color: #909EC4;
+
+}
+.contact__inp label textarea{
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    background: unset;
+    font-size: 17px;
+    line-height: 31px;
+    color: #909EC4;
+    border: unset;
+    border-bottom: 1px solid #374F8F;
+    padding-top: 8px;
+    font-family: 'Inter';
+    max-height: 400px;
+    min-height: 50px;
+    resize: vertical;
+
+}
+.contact__inp label textarea::placeholder{
+    color: #909EC4;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Inter';
+
+}
+.contact__info button {
+    margin-top: 60px;
+    width: 127px;
+    height: 54px;
+}
+
+
+@media (max-width: 1199px){
+    .gallery__box {
+        margin-top: 19px;
+    }
+    .gallery__box:nth-child(2) {
+        margin-left: 19px;
+    }
+    .gallery__box:nth-child(3) {
+        margin-left: 19px;
+    }
+    .gallery__box:nth-child(6) {
+        margin-left: 19px;
+    }
+    .gallery__box:nth-child(7) {
+        margin-left: 19px;
+    }
+    .gallery__box:nth-child(10) {
+        margin-left: 19px;
+    }
+    .gallery__box:nth-child(11) {
+        margin-left: 19px;
+    }
+    .teachers__info {
+        padding: 60px 30px 45px 30px;
+    }
+    .teachers__flex {
+        margin-top: 30px;
+    }
+    .children-text {
+        margin-left: 0px;
+    }
+    .contact__photo {
+        margin-left: -28px;
+        margin-top: -99px;
+    }
+}
+@media (max-width: 991px){
+    .reviews__main {
+        margin-top: 80px;
+        margin-bottom: 90px;
+    }
+    .teachers__flex {
+        margin-top: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .children-hands {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .teachers__info h2{
+        text-align: center;
+    }
+    .children-text {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .contact__main {
+        padding: 50px 24px 40px;
+        margin-top: 30px;
+    }
+    .contact__info {
+        max-width: 335px;
+    }
+    .contact__photo {
+        margin-left: -28px;
+        margin-top: -88px;
+    }
+    .all__marg {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 700px){
+    .pages__gallery {
+        margin-bottom: 50px;
+        justify-content: space-between;
+    }
+    .gallery__box:nth-child(1) {
+        width: 100%;
+    }
+    .gallery__box:nth-child(2) {
+        margin-left: 0;
+        width: 48%;
+    }
+    .gallery__box:nth-child(3) {
+        margin-left: 0;
+        width: 48%;
+    }
+    .gallery__box:nth-child(5) {
+        width: 100%;
+    }
+    .gallery__box:nth-child(6) {
+        margin-left: 0;
+        width: 48%;
+    }
+    .gallery__box:nth-child(7) {
+        margin-left: 0;
+        width: 48%;
+    }
+    .gallery__box:nth-child(9) {
+        width: 100%;
+    }
+    .gallery__box:nth-child(10) {
+        margin-left: 0;
+        width: 48%;
+    }
+    .gallery__box:nth-child(11) {
+        margin-left: 0;
+        width: 48%;
+    }
+    .contact__photo {
+        display: none;
+    }
+    .contact__flex {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .contact__info h2 {
+        margin-bottom: 20px;
+    }
+    .contact__main:before {
+        top: 316px;
+        height: 420px;
+        background-position: -160px;
+    }
+    .contact__info button {
+        max-width: 310px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 570px){
+    .reviews__main {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .teachers__main:before{
+        display: none;
+    }
+    .teachers__info {
+        padding: 50px 20px 40px 20px;
+    }
+    .teachers__name strong {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .teachers__name span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .teachers__name {
+        bottom: 30px;
+        left: 87px;
+    }
+    .children-number strong {
+        font-size: 62px;
+        line-height: 74px;
+    }
+    .children-number span {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 9px auto 0;
+    }
+    .children-hands {
+        margin-bottom: 29px;
+    }
+}
